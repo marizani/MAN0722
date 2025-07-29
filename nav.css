@@ -1,0 +1,27 @@
+nav ul {
+    /*background-color: rgb(0, 60, 255);*/
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav ul li {
+    display:inline; 
+}
+
+nav ul li a {
+    color: #2a5d9f;
+    background-color: rgb(220, 237, 245);
+    font-weight: bold;
+    font-size: 1.1em;
+    padding: 8px 16px;
+    border-radius: 25px;
+    border-color: #020e1e;
+    border-width: 100px;
+    border: solid 2px;
+    transition: background 0.2s, color 0.2s;
+}
