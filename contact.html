@@ -8,28 +8,27 @@
 </head>
 <body>
 
-    <nav>
+<nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">About me</a></li>
                 <li><a href="projects.html">Projects</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
-        </nav>
+</nav>
+    
+<form action="mailto:magnoliaariza@gmail.com" method="post" enctype="text/plain">
+  <label>Name:</label><br>
+  <input type="text" name="name"><br>
 
-    <h1>Contact Me</h1>
-    <p>If you have any questions or would like to get in touch, please fill out the form below:</p>
-    <form action="#" method="post">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
-        
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-        
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" rows="4" required></textarea>
-        
-        <button type="submit">Send Message</button>
-    </form>
-    <p>You can also reach me at: <a href="my personal email">magnoliaariza@gmail.com</a></p>
+  <label>Email:</label><br>
+  <input type="email" name="email"><br>
+
+  <label>Message:</label><br>
+  <textarea name="message"></textarea><br>
+
+  <input type="submit" value="Send">
+
+</form>
+    
 </body>
 </html>
